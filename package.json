@@ -1,0 +1,12 @@
+{
+  "name": "seltzer",
+  "version": "0.1.0",
+  "description": "A CLI for making scaffolding React and Adonis projects easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fizzy Pop Studio LLC",
+  "license": "ISC"
+}
