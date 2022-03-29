@@ -1,12 +1,19 @@
 {
   "name": "seltzer",
+  "type": "module",
   "version": "0.1.0",
-  "description": "A CLI for making scaffolding React and Adonis projects easier",
+  "description": "A CLI for making scaffolding React and Adonis projects",
   "main": "index.js",
+  "bin": {
+    "seltzer": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Fizzy Pop Studio LLC",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0"
+  }
 }
