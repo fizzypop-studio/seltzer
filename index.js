@@ -9,8 +9,7 @@ import { renderCommands } from './commands/index.js';
 cli.description("Build React and Adonis projects in no time");
 cli.name("seltzer");
 cli.usage("<command>");
-cli.addHelpCommand(false);
-cli.helpOption(false);
+cli.version(process.env.npm_package_version)
 
 // Render Commands
 renderCommands()
