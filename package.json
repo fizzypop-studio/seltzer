@@ -1,7 +1,7 @@
 {
   "name": "seltzer",
   "type": "module",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A CLI for making scaffolding React and Adonis projects",
   "main": "index.js",
   "bin": {
