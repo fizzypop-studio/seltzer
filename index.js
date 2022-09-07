@@ -14,14 +14,14 @@ const appURL = 'https://github.com/fizzypop-studio/seltzer-app.git#main';
 const apiURL = 'https://github.com/fizzypop-studio/seltzer-api.git#main';
 
 cli.name("seltzer")
-    .description(chalk.cyan("Build React and Adonis projects in no time"))
+    .description(chalk.cyan("Build React and Rails projects in no time"))
     .option("--client", "Frontend React Client Only")
-    .option("--api", "Adonis 5 API Only")
+    .option("--api", "Rails API Only")
     .addHelpCommand(false)
-    .version('1.0.0');
+    .version('1.0.1');
 
 cli.command('create')
-    .description('scaffold separate projects for a React client and Adonis API')
+    .description('scaffold separate projects for a React client and Rails API')
     .action(() => {
         //Give a prompt when no parameters are entered
         if (cli.args.length < 1) {
@@ -67,7 +67,7 @@ cli.command('create')
         }
 
         const downloadAPI = () => {
-            console.log(chalk.green('\n Start generating Adonis 5 API...'))
+            console.log(chalk.green('\n Start generating Rails API...'))
 
             //The load icon appears
             const spinner = ora(`Downloading from ${apiURL}`)
@@ -76,13 +76,13 @@ cli.command('create')
             download(`direct:${appURL}`, `./${projectName}-api`, { clone: true }, (err) => {
                 if (err) {
                     spinner.fail()
-                    console.log(chalk.red(symbols.error), chalk.red(`Adonis 5 Project Generation failed. ${err}`))
+                    console.log(chalk.red(symbols.error), chalk.red(`Rails Project Generation failed. ${err}`))
                 return
                 }
                 // End loading Icon
                 spinner.succeed()
-                console.log(chalk.green(symbols.success), chalk.green('Adonis 5 Project Generation completed!'))
-                console.log('\n To get started with your Adonis 5 API Project')
+                console.log(chalk.green(symbols.success), chalk.green('Rails Project Generation completed!'))
+                console.log('\n To get started with your Rails API Project')
                 console.log(chalk.cyan(`\n    1. cd ${projectName}-api`))
                 console.log(chalk.cyan(`\n    2. yarn install`))
                 console.log(chalk.cyan(`\n    3. node ace serve --watch \n`))
