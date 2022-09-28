@@ -43,6 +43,7 @@ For more information on how to setup each project please take a look at the READ
 
 The goal of Seltzer is to develop a way to get started easier with popular technology and tools that are used by the industry by providing starter project with a CLI to help manage it. Your ideas on how to manage this better are always welcome!
 
+- Client only option that doesn't rely on connection with API (in-progress)
 - Image upload
 - Vue Client Starter Project
 - Django API Starter Project
@@ -50,4 +51,4 @@ The goal of Seltzer is to develop a way to get started easier with popular techn
 - More to come
 
 
-Made with 🥤 by [Fizzy Pop studio](http://fizzypopstudio.com/)
+Made with 🥤 by [Fizzy Pop Studio](http://fizzypopstudio.com/)
