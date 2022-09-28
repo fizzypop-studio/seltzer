@@ -1,6 +1,6 @@
 # Seltzer
 
-Selzter is a CLI built to make scaffolding React & Rails projects a bit easier.
+Seltzer is a CLI built to make scaffolding React & Rails projects a bit easier.
 
 # Installation
 
@@ -10,7 +10,7 @@ npm install -g seltzer-cli
 
 # Getting started
 
-After installation use `selzter --help` for CLI commands.
+After installation use `seltzer --help` for CLI commands.
 
 To scaffold a new React & Rails project use:
 
