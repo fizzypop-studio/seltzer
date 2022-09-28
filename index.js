@@ -18,7 +18,7 @@ cli.name("seltzer")
     .option("--client", "Frontend React Client Only")
     .option("--api", "Rails API Only")
     .addHelpCommand(false)
-    .version('1.0.3');
+    .version('1.0.4');
 
 cli.command('create')
     .description('scaffold separate projects for a React client and Rails API')

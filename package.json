@@ -1,7 +1,7 @@
 {
   "name": "seltzer-cli",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI for making scaffolding React and Rails projects",
   "main": "index.js",
   "bin": {
