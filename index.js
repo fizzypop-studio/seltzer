@@ -85,8 +85,10 @@ cli.command('create')
                 console.log(chalk.green(symbols.success), chalk.green('Rails Project Generation completed!'))
                 console.log('\n To get started with your Rails API Project')
                 console.log(chalk.cyan(`\n    1. cd ${projectName}-api`))
-                console.log(chalk.cyan(`\n    2. yarn install`))
-                console.log(chalk.cyan(`\n    3. node ace serve --watch \n`))
+                console.log(chalk.cyan(`\n    2. bundle install`))
+                console.log(chalk.cyan(`\n    3. rails db:setup`))
+                console.log(chalk.cyan(`\n    4. rails s`))
+                console.log(chalk.cyan(`\n    5. For detailed start-up instructions please take a look at the README \n`))
             })
         }
 
