@@ -43,11 +43,11 @@ For more information on how to setup each project please take a look at the READ
 
 The goal of Seltzer is to develop a way to get started easier with popular technology and tools that are used by the industry by providing starter project with a CLI to help manage it. Your ideas on how to manage this better are always welcome!
 
-- Client only option that doesn't rely on connection with API (in-progress)
+- Better validation & error handling
 - Image upload
 - Vue Client Starter Project
 - Django API Starter Project
-- Parse API Starter Project
+- Parse or Adonis API Starter Project
 - More to come
 
 
